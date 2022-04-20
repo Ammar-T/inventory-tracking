@@ -1,5 +1,1 @@
-# Binaries for programs and plugins
-*.env
-
-# Dependency directories
-node_modules/
+# Shopify Challenge Fall 2022 - Inventory Tracking

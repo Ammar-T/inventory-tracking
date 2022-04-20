@@ -4,7 +4,7 @@ import {
   CREATE_WAREHOUSE_MUTATION,
 } from "../graphql/warehouse.defs";
 
-axios.defaults.baseURL = "http://localhost:8080/graphql";
+axios.defaults.baseURL = "https://inventory-tracking.ammar-t.repl.co/graphql";
 
 export const getWarehouses = () =>
   axios.post("/", {

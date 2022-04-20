@@ -1,0 +1,39 @@
+{
+  "name": "inventory-tracking",
+  "version": "1.0.0",
+  "description": "Inventory Tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ammar-T/inventory-tracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ammar-T/inventory-tracking/issues"
+  },
+  "homepage": "https://github.com/Ammar-T/inventory-tracking#readme",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.10",
+    "@mui/material": "^5.6.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-errors": "^3.3.1",
+    "apollo-server-express": "^3.6.7",
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^6.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "semantic-ui-react": "^2.1.2",
+    "web-vitals": "^2.1.4"
+  }
+}

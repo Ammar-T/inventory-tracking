@@ -97,8 +97,10 @@ const Inventory = () => {
     warehouseAPI
       .createWarehouse(warehouseObj)
       .then((res) => {
-        setWarehouses([...warehouses, warehouseObj]);
+        const ware = res.data.data.createWarehouse;
+        setWarehouses([...warehouses, ware]);
         setWarehouseCreateOpen(false);
+        setName("");
       })
       .catch((err) => console.log(err));
   }
@@ -129,6 +131,7 @@ const Inventory = () => {
         setItems([...items, newItem]);
         setActiveItem(null);
         setCreateOpen(false);
+        setName("");
       })
       .catch((err) => console.log(err));
   }
